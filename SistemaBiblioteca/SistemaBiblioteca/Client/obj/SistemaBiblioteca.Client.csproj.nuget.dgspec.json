@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Facultad\\SistemaBiblioteca - Blazor y Net7\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\SistemaBiblioteca.Client.csproj": {}
+  },
+  "projects": {
+    "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Facultad\\SistemaBiblioteca - Blazor y Net7\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\SistemaBiblioteca.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Facultad\\SistemaBiblioteca - Blazor y Net7\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\SistemaBiblioteca.Client.csproj",
+        "projectName": "SistemaBiblioteca.Client",
+        "projectPath": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Facultad\\SistemaBiblioteca - Blazor y Net7\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\SistemaBiblioteca.Client.csproj",
+        "packagesPath": "C:\\Users\\ramir\\.nuget\\packages\\",
+        "outputPath": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Facultad\\SistemaBiblioteca - Blazor y Net7\\SistemaBiblioteca\\SistemaBiblioteca\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Facultad\\SistemaBiblioteca - Blazor y Net7\\SistemaBiblioteca\\SistemaBiblioteca\\Shared\\SistemaBiblioteca.Shared.csproj": {
+                "projectPath": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Facultad\\SistemaBiblioteca - Blazor y Net7\\SistemaBiblioteca\\SistemaBiblioteca\\Shared\\SistemaBiblioteca.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CurrieTechnologies.Razor.SweetAlert2": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            },
+            "MudBlazor.ThemeManager": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.12, 7.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Facultad\\SistemaBiblioteca - Blazor y Net7\\SistemaBiblioteca\\SistemaBiblioteca\\Shared\\SistemaBiblioteca.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Facultad\\SistemaBiblioteca - Blazor y Net7\\SistemaBiblioteca\\SistemaBiblioteca\\Shared\\SistemaBiblioteca.Shared.csproj",
+        "projectName": "SistemaBiblioteca.Shared",
+        "projectPath": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Facultad\\SistemaBiblioteca - Blazor y Net7\\SistemaBiblioteca\\SistemaBiblioteca\\Shared\\SistemaBiblioteca.Shared.csproj",
+        "packagesPath": "C:\\Users\\ramir\\.nuget\\packages\\",
+        "outputPath": "D:\\PersonalFolder\\PersonalDesktop\\Programacion\\Facultad\\SistemaBiblioteca - Blazor y Net7\\SistemaBiblioteca\\SistemaBiblioteca\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
